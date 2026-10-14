@@ -14,11 +14,11 @@
 #include <ArduinoJson.h>
 WebServer server(80);
 
-const char* ssid = "Redmi Note 7";
-const char* password = "ed12b5fb753c";
+const char* ssid = "---";
+const char* password = "---";
 
-#define BOTtoken "8646318276:AAHkenz4sggWfBjAsnWx-mh9xtzZi_TPhRc"
-#define CHAT_ID "7541426217"
+#define BOTtoken "---"
+#define CHAT_ID "---"
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(BOTtoken, client);
